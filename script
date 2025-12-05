@@ -1,0 +1,8 @@
+<div id="quizContainer" style="display:none;">
+    <!-- 你的題目卡片區 -->
+</div>
+
+function startQuiz() {
+    document.getElementById('cover').style.display = 'none';
+    document.getElementById('quizContainer').style.display = 'block';
+}
